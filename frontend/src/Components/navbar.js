@@ -15,7 +15,7 @@ const Navbar = (props) => {
     const confirmLogout = window.confirm("Are you sure you want to logout?");
     if (confirmLogout) {
       props.history.push("/");
-      localStorage.removeItem("token");
+      localStorage.removeItem("token"); 
     }
   };
 
